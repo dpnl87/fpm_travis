@@ -1,9 +1,7 @@
-language: c
-compiler:
-    - gcc
-before_script:
-- pwd
-- sudo apt-get update
-- which zzuf
-- which bash
-- which sh
+language: ruby
+
+rvm:
+- 2.0.0
+
+script: './build.sh'
+
