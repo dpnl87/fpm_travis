@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - 2.1.0
+before_script:
+- pwd
+- sudo apt-get update
+- sudo apt-get install zzuf
+- which zzuf
+- which bash
+- which sh
